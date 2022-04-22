@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+    <link rel="stylesheet" href="../static/css/smile.css">
+    <title>TRAINandGROW acceuil</title>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="profile">
+            <img src="../static/images/TrainandGrow-.PNG" height="70" width="70" class="logo">
+            <h1>TRAINandGROW</h1>
+        </div>
+           
+        <ul>
+            <li><a src="#">Cours</a></li>
+            <li><a src="#">pratique</a></li>
+            <li><a src="#">contact</a></li>
+        </ul>
+    </nav>
+
+    <section id ="conteneur" class="conteneur">
+        <div class="menu">
+            <ul>
+                <li>
+                    ComputerVision
+                </li>
+                <li>
+                    Natural Language Processing
+                </li>
+            </ul>
+        </div>
+        <div class="camera">
+            <div class="entete">
+                <h4>Detection de sourire</h4>
+            </div>
+            <div class="video">   
+                <video id="video" playsinline></video>
+			    <canvas id="output" class="canvas-output" style="margin:auto;position:relative;top:-480px;left:10px"></canvas>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer>
+        
+        <div class="contenu-footer">
+                <div class="div-footer-elem">
+                        <img class="logo" src="../static/images/call.png" alt="">
+                        <p>+261 34 39 126 82</p>
+                </div>
+                <div class="div-footer-elem">
+                        <img class="logo" src="../static/images/letter.png" alt="">
+                        <p>mahefasandra@gmail.com</p>
+                </div>
+        </div>
+        <div id="contenu-footer1" class="contenu-footer">
+                <div class="div-footer-elem">
+                        <img class="logo" src="../static/images/facebook.png" alt="">
+                        <a href="https://www.facebook.com"><p>Facebook</p></a>
+                </div>
+                <div class="div-footer-elem">
+                        <img class="logo" src="../static/images/twitter.png" alt="">
+                        <a href="https://www.twitter.com"><p>Twitter</p></a>
+                </div>
+                <div class="div-footer-elem">
+                        <img class="logo" src="../static/images/instagram.png" alt="">
+                        <a href="https://www.instagram.com"><p>Instagram</p></a>
+                </div>
+                <div class="div-footer-elem">
+                        <img class="logo" src="../static/images/skype.png" alt="">
+                        <a href="https://www.skype.com"><p>Skype</p></a>
+                </div>
+        </div>
+    
+  
+</footer>
+<script src="../static/javascript/smile.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

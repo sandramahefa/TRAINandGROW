@@ -1,0 +1,131 @@
+body{
+    background-color: white;
+    padding: 0 2px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #5D5050;
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    margin-right: 20px;
+    display: flex;
+    list-style-type: none;
+}
+nav .profile h1{
+    margin-left: 20px;
+    color: white;
+}
+
+.nav ul li a{
+
+    margin-left: 50px;
+    color: white;
+    display: flex;
+}
+.nav ul li a:hover{
+    border-bottom-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 40px;
+    display: flex;
+}
+.section .image img{
+    height: 760;
+    width: 590px
+}
+.section .sous-section .text{
+    text-align: justify;
+    margin-right: 10px;
+}
+.section-1{
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.section-1 .button a .projets{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 800px;
+    flex-wrap: wrap;
+    background-color: white;
+    font-size: 20px;
+}
+@media screen and (max-width:800px){
+    .section-1 .button a .projets{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 60px;
+        width: 600px;
+        flex-wrap: wrap;
+        background-color: white;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .section-1 .button a .projets{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 40px;
+        width: 300px;
+        flex-wrap: wrap;
+        background-color: white;
+        font-size: 14px;
+    }
+}
+
+footer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    top: 0;
+    background-color: #5D5050;
+    
+}
+
+footer #contenu-footer1{
+    margin-right: 20px;
+}
+footer .contenu-footer .div-footer-elem{
+    padding-top: -20px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+footer .contenu-footer .div-footer-elem .logo{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width:700px) {
+    nav .profile h1{
+        text-size-adjust: 20px;
+    }
+    nav{
+        justify-content: center;
+    }
+    .section .image img{
+        margin-top: 50px;
+        height: 460;
+        width: 390px
+    }
+    
+}

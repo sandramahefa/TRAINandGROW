@@ -1,0 +1,127 @@
+
+body{
+    background-color: white;
+    padding: 0 2px;
+    margin: 0;
+}
+
+/*Style NAv*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #5D5050;
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    margin-right: 20px;
+    display: flex;
+    list-style-type: none;
+}
+nav .profile h1{
+    margin-left: 20px;
+    color: white;
+}
+
+.nav ul li a{
+
+    margin-left: 50px;
+    color: white;
+    display: flex;
+}
+.nav ul li a:hover{
+    border-bottom-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+/*Style Contener*/
+
+.conteneur{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.conteneur .menu{
+    width: 20%;
+    background-color: aqua;
+}
+.conteneur .camera{
+    background-color:azure;
+    width: 60%;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 600px;
+    box-shadow: 0px #ddd7d7 3px 3px;
+}
+.conteneur .camera .entete{
+    border-radius: 4px;
+    height: 30px;
+    background-color: #5D5050;
+}
+.conteneur .camera .video{
+    justify-content: center;
+}
+.conteneur .camera .video #video{
+    width: 100%;
+}
+
+
+/*Style footer*/
+
+footer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    top: 0;
+    background-color: #5D5050;
+    
+}
+
+footer #contenu-footer1{
+    margin-right: 20px;
+}
+footer .contenu-footer .div-footer-elem{
+    padding-top: -20px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+
+
+footer .contenu-footer .div-footer-elem .logo{
+    padding-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width:700px) {
+    nav .profile h1{
+        text-size-adjust: 20px;
+    }
+    nav{
+        justify-content: center;
+    }
+    .section .image img{
+        margin-top: 50px;
+        height: 460;
+        width: 390px
+    }
+    .conteneur .camera{
+        height: 400px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .conteneur .camera{
+        height: 300px;
+    }
+}
